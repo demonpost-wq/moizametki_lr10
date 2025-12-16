@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Мой Менеджер Заметок</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: url("ggs.gif") no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Моя закладка</h1>
+    <div class="input-area">
+      <input type="text" id="noteInput" placeholder="Вставьте пени..." />
+      <button id="addNoteBtn">Добавить </button>
+    </div>
+    <div id="notesContainer"></div>
+  </div>
+
+  <div style="height: 100vh;"></div>
+
+  <script type="module" src="/script.js"></script>
+</body>
+</html>

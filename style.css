@@ -1,0 +1,163 @@
+/*фон*/
+body {
+  font-family:  'Bebas Neue', sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+/*контейнер */
+.container {
+  max-width: 700px;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+/*заголовок */
+h1 {
+  font-weight: 700; /* толстый */
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* строка */
+.input-area {
+  margin-bottom: 25px;
+}
+
+#noteInput {
+  padding: 12px;
+  width: 60%;
+  border: 2px solid #444444;
+  border-radius: 12px; 
+  font-size: 1.1rem;
+  font-weight: 600;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#noteInput:focus {
+  border-color: #ff4de7;
+  box-shadow: 0 0 0 4px rgba(255, 77, 77, 0.2);
+}
+
+#addNoteBtn {
+  padding: 12px 18px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 12px;
+  background: #ff4da0;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+#addNoteBtn:hover { background: #e63939; }
+#addNoteBtn:active { transform: scale(0.95); }
+
+/* UNO */
+.note {
+  background: linear-gradient(270deg, #ff4d88, #ff008c, #af4c91, #c221f3);
+  background-size: 400% 400%;
+  animation: gradientShift 0.3s  ease infinite;
+  border: 3px solid #222;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+
+ 
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.note p {
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.note small {
+  color: #f0f0f0;
+  font-size: 0.95rem;
+  font-weight: 400;
+}
+
+/*КнопкЕ*/
+.note button {
+  margin-top: 10px;
+  margin-right: 8px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.1s;
+}
+
+.note .edit {
+  background: #cf66ff;
+  color: #222;
+}
+
+.note .edit:hover { background: #c432f1; }
+
+.note .delete {
+  background: #f700ff;
+  color: #222;
+}
+
+.note .delete:hover { background: hwb(310 48% 9%); }
+
+.empty {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-top: 20px;
+}
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+
+/* фон */
+body {
+  background: url("ggs.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url("ggs.gif") no-repeat center center fixed;
+  background-size: cover;
+}
+}body {
+  font-family: 'Bebas Neue', sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
